@@ -1,8 +1,8 @@
 # Fuchsia theme for Linux
 
-Google Fuchsia theme *(based on preview colors and Android theme)*
+### Google Fuchsia theme *(based on Armadillo colors and Android theme)*
 
-![fuchsia-os](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/capture-du-2017-06-07-21-09-59_orig.png)
+![fuchsia-armadillo](https://b00merang.weebly.com/uploads/1/6/8/1/16813022/fuchsia-armadillo-ui_1_orig.png)
 
 **Maintainer:** [Elbullazul](https://github.com/elbullazul)
 
