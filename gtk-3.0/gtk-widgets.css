@@ -371,16 +371,15 @@ checkbutton:selected:focus {
 /*****************
  * column-header *
  *****************/
-treeview header button,
-treeview header button:active {
+treeview header button {
     border-width: 0 1px 1px 0;
     border-radius: 0;
     padding: 10px 15px;
 }
 
 treeview header button,
-treeview header button:active,
 treeview header button:focus,
+treeview header button:active,
 treeview header button:active:focus {
     border-color: shade(@theme_base_color, 0.9);
     border-bottom-color: shade(@theme_base_color, 0.8);
@@ -389,8 +388,8 @@ treeview header button:active:focus {
 }
 
 treeview header button:hover,
-treeview header button:active:hover,
 treeview header button:hover:focus,
+treeview header button:active:hover,
 treeview header button:active:hover:focus {
     border-color: shade(@theme_base_color, 0.9);
     border-bottom-color: shade(@theme_base_color, 0.8);
@@ -1857,7 +1856,7 @@ scrollbar.overlay-indicator:not(.dragging):not(.hovering) button {
 }
 
 scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal slider {
-    margin: 0 2px;
+    margin: 0;
     min-width: 40px;
 }
 
@@ -1867,7 +1866,7 @@ scrollbar.overlay-indicator:not(.dragging):not(.hovering).horizontal button {
 }
 
 scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical slider {
-    margin: 2px 0;
+    margin: 0;
     min-height: 40px;
 }
 
