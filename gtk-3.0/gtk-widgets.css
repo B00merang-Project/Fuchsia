@@ -718,10 +718,11 @@ view.view.cell:selected:focus {
     color: @theme_selected_fg_color;
 }
 
-rubberband,
-.rubberband,
+.content-view.view.rubberband,
 view rubberband,
-.content-view.view.rubberband {
+.view.rubberband,
+rubberband,
+.rubberband {
     border-width: 1px;
     border-style: solid;
     border-color: shade(@theme_selected_bg_color, 0.9);
@@ -2456,14 +2457,6 @@ headerbar.titlebar.selection-mode button.suggested-action:active {
     color: rgba(0, 0, 0, 0.8); 
 }
 
-headerbar button.text-button {
-    padding: 4px 15px;
-}
-
-headerbar button image-button {
-    padding: 6px;
-}
-
 headerbar .title {
     font-weight: bold;
     padding: 0 12px;
@@ -2476,6 +2469,7 @@ headerbar .subtitle {
 
 headerbar combobox,
 headerbar button {
+    padding: 8px 6px;
     border: none;
     background-color: transparent;
     background-image: none;
@@ -2517,6 +2511,7 @@ headerbar button:active *:disabled {
 }
 
 headerbar entry {
+    padding: 7px 6px;
     border-color: shade(@theme_bg_color, 0.8);
 }
 
@@ -3367,9 +3362,7 @@ actionbar .subtitle {
  * search bars *
  ***************/
 searchbar {
-    border-width: 0 0 1px 0;
-    border-style: solid;
-    border-color: shade(@theme_bg_color, 0.8);
+    border: none;
     background-color: shade(@theme_bg_color, 0.98);
 }
 
