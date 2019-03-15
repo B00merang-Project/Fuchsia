@@ -1,8 +1,8 @@
 # Fuchsia theme for Linux
 
-### Google Fuchsia theme *(based on Armadillo colors and Android theme)*
+### GTK theme based on what's been seen so far of Google's new all-purpose OS
 
-![fuchsia-armadillo](https://b00merang.weebly.com/uploads/1/6/8/1/16813022/fuchsia-armadillo-ui_1_orig.png)
+![fuchsia-armadillo](https://github.com/B00merang-Project/gallery/raw/master/Fuchsia%20(3).png)
 
 **Maintainer:** [Elbullazul](https://github.com/elbullazul)
 
@@ -12,6 +12,15 @@
 
 **More info :** http://b00merang.weebly.com/fuchsia.html
 
-***
+### Manual installation
 
-> **Installation instructions : http://b00merang.weebly.com/easy-installation-guide.html**
+Extract the zip file to the themes directory i.e. `/home/USERNAME/.themes`
+
+### Requirements
+
+- GTK+ 3.20 or above
+- Murrine and Pixmap theme engines
+
+### Contribute
+
+Contact us @ http://b00merang.weebly.com/contact.html
