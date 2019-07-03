@@ -1,6 +1,8 @@
+[![built-with-azurra-framework](https://github.com/Elbullazul/Azurra_framework/raw/assets/azurra_framework_smaller.png)](https://github.com/Elbullazul/Azurra_framework)
+
 # Fuchsia theme for Linux
 
-### GTK theme based on what's been seen so far of Google's new all-purpose OS
+GTK theme based on what's been seen so far of Google's new all-purpose OS
 
 ![fuchsia-armadillo](https://github.com/B00merang-Project/gallery/raw/master/Fuchsia%20(3).png)
 
